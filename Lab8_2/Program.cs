@@ -27,7 +27,7 @@ namespace Lab8_2
 
             using (StreamWriter sw = new StreamWriter(path2))
             {
-                const int n = 3;
+                const int n = 10;
                 int[] array = new int[n];
                 Random random = new Random();
                 for (int i = 0; i < n; i++)
